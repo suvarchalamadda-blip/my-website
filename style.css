@@ -1,0 +1,321 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8e7;
+    text-align: center;
+}body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8e7;
+    text-align: center;
+}body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: orange;
+    padding: 20px;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    padding: 80px;
+    background-color: lightyellow;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+th {
+    background-color: orange;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.food-card {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.food-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-card button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: orange;
+}
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: orange;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+form {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkorange;
+}
+section img {
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+footer {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+footer h2 {
+    color: orange;
+}
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+    .food-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-card {
+        width: 80%;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    section img {
+        width: 90%;
+        height: auto;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.menu-card {
+    width: 220px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.menu-card h2 {
+    color: orange;
+}
+
+.menu-card button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cart-item {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.cart-item button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+.cart-item span {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#total {
+    color: green;
+    margin: 30px;
+}
+.banner-text button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.banner-text button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+.food-card {
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px gray;
+}
+
+.food-card h3 {
+    color: orange;
+    font-size: 22px;
+}
+
+.food-card button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.food-card button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
